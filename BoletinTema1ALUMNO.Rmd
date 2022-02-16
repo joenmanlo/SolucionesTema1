@@ -106,17 +106,8 @@ tail(df_ani)
 str(df_ani)
 
 
-
-
-
-
-
-
-
-
-
-
-
+rownames(df_mam)
+rownames(df_ani)
 
 
 
