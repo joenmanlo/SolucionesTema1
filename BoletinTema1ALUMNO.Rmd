@@ -136,17 +136,21 @@ differentAnimals2
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
+#No hay diferencias.
+
+tail(df_mam["Arctic fox",])
+tail(df_ani["Artic fox",])
 
 
+tail(df_mam["Arctic ground squirrel",])
+tail(df_ani["Artic ground squirrel",])
 
 
+tail(df_mam["Mole rat",])
+tail(df_ani["Mole",])
 
-
-
-
-
-
-
+tail(df_mam["Patas monkey",])
+tail(df_ani["Potar monkey",])
 
 ```
 
