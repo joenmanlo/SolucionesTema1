@@ -92,7 +92,18 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
+df_mam <- mammals
+df_ani <- Animals2
 
+dim(df_mam)
+head(df_mam)
+tail(df_mam)
+str(df_mam)
+
+dim(df_ani)
+head(df_ani)
+tail(df_ani)
+str(df_ani)
 
 
 
