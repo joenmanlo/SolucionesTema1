@@ -128,6 +128,9 @@ differentAnimals <- setdiff(rownames(df_mam), rownames(df_ani))
 
 differentAnimals
 
+
+differentAnimals2 <- setdiff(rownames(df_ani), rownames(df_mam))
+differentAnimals2
 ```
 
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
