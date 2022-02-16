@@ -158,6 +158,7 @@ tail(df_ani["Potar monkey",])
 
 ```{r}
 qqPlot(log(mammals$brain))
+qqPlot(log(Animals2$brain))
 
 ```
 
