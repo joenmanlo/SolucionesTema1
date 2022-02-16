@@ -221,6 +221,8 @@ qqPlot(cabbages$VitC)
 
 ```{r}
 
+hist(cabbages$VitC[cabbages$Cult == "c39"])
+hist(cabbages$VitC[cabbages$Cult == "c52"])
 
 
 ```
