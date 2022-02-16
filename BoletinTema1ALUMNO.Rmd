@@ -186,30 +186,23 @@ head(libReturn$results, n=5)
 
 ```{r}
 
+head(cabbages)
+dim(cabbages)
+str(cabbages)
+tail(cabbages)
 
+colSums(sapply(cabbages, is.na))
 
+summary(cabbages)
 
+head(Chile)
+dim(Chile)
+str(Chile)
+tail(Chile)
 
+colSums(sapply(Chile, is.na))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+summary(Chile)
 
 
 ```
